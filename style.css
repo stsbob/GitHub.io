@@ -1,0 +1,84 @@
+ html, body {
+        padding: 0;
+        margin: 0;
+        font-family: verdana, arial, sans-serif;
+      }
+
+      .body {
+        color: #fff;
+        font-size: 1.1em;
+        padding: 1em;
+        display: flex;
+  	flex-direction: column;
+	heght: 100%;
+ 
+      }
+
+      .row-main {
+      display: flex;
+      flex-direction: column;
+        
+      }
+
+      .article{
+        background-color: #0bb8a6;
+        flex: 3;
+        padding: 10px;
+      }
+
+      
+	.nav {
+        flex: 1;
+        background-color: #546e7a;
+order: -1;/* при -1 вывод панель слева, 1 справа*/
+      }
+     
+      .header,.footer {
+	
+        flex: 0 0 5em;
+        background-color: #27444e;
+      }
+	  .row-header {
+		display: flex;
+flex-wrap: wrap; 
+justify-content: space-around;
+padding: 20px;		
+	  }
+.row-nav {
+		display: flex; 
+justify-content: space-around;
+padding: 10px;	
+ flex-direction: column;	
+	  }
+.btn_nav {
+display: flex; 
+justify-content: space-around;
+padding: 50px;
+}
+
+.row-footer {
+display: flex; 
+justify-content: space-around;
+padding: 50px;
+}
+.icon-telegram {
+
+}
+.icon-viber {
+
+}
+.icon-instagram {
+}
+
+
+      @media screen and (min-width: 600px) {
+        body {
+          min-height: 100vh;
+        }
+        .row-main {
+          flex-direction: row;
+          min-height: 100%;
+	  flex-wrap: wrap;
+          flex: 1 1 auto;
+        }
+      }
