@@ -36,7 +36,7 @@ order: -1;/* при -1 вывод панель слева, 1 справа*/
       .header,.footer {
 	
         flex: 0 0 5em;
-        background-color: #27444e;
+        background-color: #00ff00;
       }
 	  .row-header {
 		display: flex;
