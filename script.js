@@ -1,4 +1,4 @@
-document.querySelector('button').onclic = myClick;
+document.querySelector('button').onclick = myClick;
 function myClick(){
 let a = document.querySelector('.i').value;
 console.log(a);//выводим в консоль значение
