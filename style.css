@@ -5,7 +5,7 @@
       }
 
       .body {
-        color: #00ff00;
+       /*color: #00ff00;*/
 	background-image:url(IMG/img.gif)
         font-size: 1.1em;
         padding: 1em;
