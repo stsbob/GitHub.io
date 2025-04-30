@@ -23,7 +23,7 @@
       }
 
       .article{
-        background-color: #0338a6;
+       /* background-color: #0338a6;*/
         flex: 3;
         padding: 10px;
       }
