@@ -31,7 +31,7 @@
       
 	.nav {
         flex: 1;
-        background-color: #541e7a;
+        /*background-color: #541e7a;*/
 order: -1;/* при -1 вывод панель слева, 1 справа*/
       }
      
